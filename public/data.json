@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/PTJ6Hxj/Health.png",
+    "title": "Support Vitality",
+    "category": "Health",
+    "category_bg": "#0052FF38",
+    "card_bg": "#0052FF33",
+    "text_button_bg": "#0052FF",
+    "description": "Contribute to the cause of promoting vitality and well-being in our community. Your donation helps us elevate the health of individuals and empowers them to embrace a brighter, more energized future.",
+    "price": 19.99
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/nCcM9qq/Education.png",
+    "title": "Empower Education",
+    "category": "Education",
+    "category_bg": "#FF444A38",
+    "card_bg": "#FF444A33",
+    "text_button_bg": "#FF444A",
+    "description": "Join us in our mission to empower education. Your generous contribution fuels lifelong learning, expands horizons, and equips individuals to reach their full potential. Ignite intellects and curiosity with your support.",
+    "price": 49.99
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/q92mZMx/Clothing.png",
+    "title": "Fashion with Purpose",
+    "category": "Clothing",
+    "category_bg": "#79C23F38",
+    "card_bg": "#79C23F33",
+    "text_button_bg": "#79C23F",
+    "description": "Elevate your style with a purpose by supporting our clothing drive. Your donation adds a touch of elegance to the wardrobes of those in need. Embrace sophistication and stand out with confidence.",
+    "price": 39.99
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/JzsjZVC/Food.png",
+    "title": "Share Gourmet Delights",
+    "category": "Food",
+    "category_bg": "#F8714738",
+    "card_bg": "#F8714751",
+    "text_button_bg": "#F87147",
+    "description": "Savor the taste of sharing by contributing to our gourmet delight campaign. Your donation allows us to provide exceptional flavors to those who may be in need. Join us in creating moments of culinary joy.",
+    "price": 9.99
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/JzsjZVC/Food.png",
+    "title": "Culinary Artistry for All",
+    "category": "Food",
+    "category_bg": "#F8714738",
+    "card_bg": "#F8714751",
+    "text_button_bg": "#F87147",
+    "description": "Experience the culinary artistry made accessible to all through your support. Your contribution enables us to provide exquisite flavors that transport individuals to a world of gastronomic bliss.",
+    "price": 19.99
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/q92mZMx/Clothing.png",
+    "title": "Upgrade Wardrobes with Care",
+    "category": "Clothing",
+    "category_bg": "#79C23F38",
+    "card_bg": "#79C23F33",
+    "text_button_bg": "#79C23F",
+    "description": "Make a positive impact by upgrading wardrobes with care. Your donation provides both comfort and style to those in need. Step into confidence and showcase their personalities through fashion.",
+    "price": 59.99
+  },
+  {
+    "id": 7,
+    "img": "https://i.ibb.co/nCcM9qq/Education.png",
+    "title": "Empower Dreams with Education",
+    "category": "Education",
+    "category_bg": "#FF444A38",
+    "card_bg": "#FF444A33",
+    "text_button_bg": "#FF444A",
+    "description": "Transform futures by supporting education. Your contribution equips individuals with the skills and knowledge needed to thrive in today's dynamic world. Unleash their potential and help them achieve their dreams.",
+    "price": 69.99
+  },
+  {
+    "id": 8,
+    "img": "https://i.ibb.co/PTJ6Hxj/Health.png",
+    "title": "Discover Health and Wellness",
+    "category": "Health",
+    "category_bg": "#0052FF38",
+    "card_bg": "#0052FF33",
+    "text_button_bg": "#0052FF",
+    "description": "Join the journey to discover health and wellness. Your support unlocks a world of vitality and well-being for individuals in our community. Embrace a brighter, healthier future together.",
+    "price": 29.99
+  },
+  {
+    "id": 9,
+    "img": "https://i.ibb.co/PTJ6Hxj/Health.png",
+    "title": "Revive Wellness for All",
+    "category": "Health",
+    "category_bg": "#0052FF38",
+    "card_bg": "#0052FF33",
+    "text_button_bg": "#0052FF",
+    "description": "Revitalize lives with your contribution to wellness. This cutting-edge solution enhances vitality and overall well-being, providing opportunities for individuals to thrive and feel their best every day.",
+    "price": 24.99
+  },
+  {
+    "id": 10,
+    "img": "https://i.ibb.co/nCcM9qq/Education.png",
+    "title": "Journey to Success",
+    "category": "Education",
+    "category_bg": "#FF444A38",
+    "card_bg": "#FF444A33",
+    "text_button_bg": "#FF444A",
+    "description": "Empower minds with your support on the journey to success. Dive into a world of knowledge and personal growth, offering individuals the chance to pursue passions and advance careers.",
+    "price": 59.99
+  },
+  {
+    "id": 11,
+    "img": "https://i.ibb.co/q92mZMx/Clothing.png",
+    "title": "Express Trendy Styles",
+    "category": "Clothing",
+    "category_bg": "#79C23F38",
+    "card_bg": "#79C23F33",
+    "text_button_bg": "#79C23F",
+    "description": "Make a stylish statement with your contribution to express trendy styles. Embrace the latest fashion trends and empower individuals to showcase their unique style for any occasion.",
+    "price": 49.99
+  },
+  {
+    "id": 12,
+    "img": "https://i.ibb.co/JzsjZVC/Food.png",
+    "title": "Share Exquisite Culinary Moments",
+    "category": "Food",
+    "category_bg": "#F8714738",
+    "card_bg": "#F8714751",
+    "text_button_bg": "#F87147",
+    "description": "Delight palates and create memories by sharing exquisite culinary moments. Your donation ensures that individuals can enjoy exceptional flavors and unforgettable gastronomic experiences.",
+    "price": 14.99
+  }
+]
