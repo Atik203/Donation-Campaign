@@ -1,7 +1,8 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "img": "https://i.ibb.co/PTJ6Hxj/Health.png",
+    "details_img": "https://i.ibb.co/Sm0b8mF/Health.jpg",
     "title": "Support Vitality",
     "category": "Health",
     "category_bg": "#0052FF38",
@@ -11,8 +12,9 @@
     "price": 19.99
   },
   {
-    "id": 2,
+    "id": "2",
     "img": "https://i.ibb.co/nCcM9qq/Education.png",
+    "details_img": "https://i.ibb.co/k68Q2zS/Educationn.jpg",
     "title": "Empower Education",
     "category": "Education",
     "category_bg": "#FF444A38",
@@ -22,8 +24,9 @@
     "price": 49.99
   },
   {
-    "id": 3,
+    "id": "3",
     "img": "https://i.ibb.co/q92mZMx/Clothing.png",
+    "details_img": "https://i.ibb.co/F3J2qgc/Clothing.jpg",
     "title": "Fashion with Purpose",
     "category": "Clothing",
     "category_bg": "#79C23F38",
@@ -33,8 +36,9 @@
     "price": 39.99
   },
   {
-    "id": 4,
+    "id": "4",
     "img": "https://i.ibb.co/JzsjZVC/Food.png",
+    "details_img": "https://i.ibb.co/5Tdqc0s/Food.jpg",
     "title": "Share Gourmet Delights",
     "category": "Food",
     "category_bg": "#F8714738",
@@ -44,8 +48,9 @@
     "price": 9.99
   },
   {
-    "id": 5,
+    "id": "5",
     "img": "https://i.ibb.co/JzsjZVC/Food.png",
+    "details_img": "https://i.ibb.co/5Tdqc0s/Food.jpg",
     "title": "Culinary Artistry for All",
     "category": "Food",
     "category_bg": "#F8714738",
@@ -55,8 +60,9 @@
     "price": 19.99
   },
   {
-    "id": 6,
+    "id": "6",
     "img": "https://i.ibb.co/q92mZMx/Clothing.png",
+    "details_img": "https://i.ibb.co/F3J2qgc/Clothing.jpg",
     "title": "Upgrade Wardrobes with Care",
     "category": "Clothing",
     "category_bg": "#79C23F38",
@@ -66,8 +72,9 @@
     "price": 59.99
   },
   {
-    "id": 7,
+    "id": "7",
     "img": "https://i.ibb.co/nCcM9qq/Education.png",
+    "details_img": "https://i.ibb.co/k68Q2zS/Educationn.jpg",
     "title": "Empower Dreams with Education",
     "category": "Education",
     "category_bg": "#FF444A38",
@@ -77,8 +84,9 @@
     "price": 69.99
   },
   {
-    "id": 8,
+    "id": "8",
     "img": "https://i.ibb.co/PTJ6Hxj/Health.png",
+    "details_img": "https://i.ibb.co/Sm0b8mF/Health.jpg",
     "title": "Discover Health and Wellness",
     "category": "Health",
     "category_bg": "#0052FF38",
@@ -88,8 +96,9 @@
     "price": 29.99
   },
   {
-    "id": 9,
+    "id": "9",
     "img": "https://i.ibb.co/PTJ6Hxj/Health.png",
+    "details_img": "https://i.ibb.co/Sm0b8mF/Health.jpg",
     "title": "Revive Wellness for All",
     "category": "Health",
     "category_bg": "#0052FF38",
@@ -99,8 +108,9 @@
     "price": 24.99
   },
   {
-    "id": 10,
+    "id": "10",
     "img": "https://i.ibb.co/nCcM9qq/Education.png",
+    "details_img": "https://i.ibb.co/k68Q2zS/Educationn.jpg",
     "title": "Journey to Success",
     "category": "Education",
     "category_bg": "#FF444A38",
@@ -110,8 +120,9 @@
     "price": 59.99
   },
   {
-    "id": 11,
+    "id": "11",
     "img": "https://i.ibb.co/q92mZMx/Clothing.png",
+    "details_img": "https://i.ibb.co/F3J2qgc/Clothing.jpg",
     "title": "Express Trendy Styles",
     "category": "Clothing",
     "category_bg": "#79C23F38",
@@ -121,8 +132,9 @@
     "price": 49.99
   },
   {
-    "id": 12,
+    "id": "12",
     "img": "https://i.ibb.co/JzsjZVC/Food.png",
+    "details_img": "https://i.ibb.co/5Tdqc0s/Food.jpg",
     "title": "Share Exquisite Culinary Moments",
     "category": "Food",
     "category_bg": "#F8714738",
