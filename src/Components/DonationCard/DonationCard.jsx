@@ -14,14 +14,14 @@ const DonationCard = ({ data }) => {
         <figure>
           <img src={img} className="w-full" />
         </figure>
-        <div className="ml-4 mt-5" style={{ color: text_button_bg }}>
+        <div className="ml-4 mt-6" style={{ color: text_button_bg }}>
           <button
             className="border-none px-2 text-center rounded-md"
             style={{ background: card_bg }}
           >
             {category}
           </button>
-          <h2 className="card-title mb-4 font-medium text-xl mt-3">{title}</h2>
+          <h2 className="card-title mb-4 font-medium text-xl mt-2">{title}</h2>
         </div>
       </div>
     </Link>
