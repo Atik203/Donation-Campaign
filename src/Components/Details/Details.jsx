@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Details = () => {
   const datas = useLoaderData();
@@ -21,7 +23,31 @@ const Details = () => {
     left: 0,
   };
 
-  console.log(data);
+  const handleDonation = () => {
+    const AddedDonation = [];
+
+    const DonationItems = JSON.parse(localStorage.getItem("donation"));
+
+    if (!DonationItems) {
+      AddedDonation.push(data);
+      localStorage.setItem("donation", JSON.stringify(AddedDonation));
+    } else {
+      AddedDonation.push(...DonationItems, data);
+      localStorage.setItem("donation", JSON.stringify(AddedDonation));
+    }
+
+    toast.success("Donated Successfully", {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
+  };
+
   return (
     <div className="w-11/12 mx-auto my-28">
       <div className="relative flex justify-center items-center rounded-lg">
@@ -31,11 +57,13 @@ const Details = () => {
           style={overlayStyle}
         >
           <button
+            onClick={handleDonation}
             className="btn btn-primary text-base md:text-lg text-white border-none ml-10 mb-8"
             style={{ background: text_button_bg }}
           >
             Donate ${price}
           </button>
+          <ToastContainer></ToastContainer>
         </div>
       </div>
 
