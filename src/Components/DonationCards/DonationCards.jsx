@@ -1,4 +1,5 @@
 import DonationCard from "../DonationCard/DonationCard";
+import PropTypes from "prop-types";
 
 const DonationCards = ({ datas, search }) => {
   const filteredData = search
@@ -12,6 +13,23 @@ const DonationCards = ({ datas, search }) => {
       ))}
     </div>
   );
+};
+DonationCards.propTypes = {
+  datas: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      img: PropTypes.string.isRequired,
+      details_img: PropTypes.string.isRequired,
+      title: PropTypes.string.isRequired,
+      category: PropTypes.string.isRequired,
+      category_bg: PropTypes.string.isRequired,
+      card_bg: PropTypes.string.isRequired,
+      text_button_bg: PropTypes.string.isRequired,
+      description: PropTypes.string.isRequired,
+      price: PropTypes.number.isRequired,
+    })
+  ).isRequired,
+  search: PropTypes.string.isRequired,
 };
 
 export default DonationCards;

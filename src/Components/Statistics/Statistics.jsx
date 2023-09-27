@@ -3,6 +3,12 @@ import { Chart } from "react-google-charts";
 
 const Statistics = () => {
   const [donateData, setDonateData] = useState([]);
+  const [Total, setTotal] = useState(12);
+  useEffect(() => {
+    fetch("/data.json")
+      .then((res) => res.json())
+      .then((data) => setTotal(data));
+  }, []);
 
   useEffect(() => {
     const DonationItems = JSON.parse(localStorage.getItem("donation")) || [];
@@ -12,7 +18,7 @@ const Statistics = () => {
   }, []);
 
   const yourDonations = donateData.length;
-  const TotalDonation = 12;
+  const TotalDonation = Total.length;
 
   const data = [
     ["Task", "Percentage"],

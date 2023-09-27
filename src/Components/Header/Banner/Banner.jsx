@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const Banner = ({ search, setSearch }) => {
   const background = {
     backgroundImage: `url("https://i.ibb.co/tPz3tK9/Rectangle-4281.png?fbclid=IwAR3xBaGZ25QE7mfVsX2iYWhhpFQCea1heVhQpRuuNJ23BA4FdafFthgLKZg")`,
@@ -46,6 +48,11 @@ const Banner = ({ search, setSearch }) => {
       </div>
     </div>
   );
+};
+
+Banner.propTypes = {
+  search: PropTypes.string.isRequired,
+  setSearch: PropTypes.func.isRequired,
 };
 
 export default Banner;

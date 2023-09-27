@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const DonationCard = ({ data }) => {
   const { img, id, title, category, category_bg, card_bg, text_button_bg } =
@@ -25,6 +26,17 @@ const DonationCard = ({ data }) => {
       </div>
     </Link>
   );
+};
+DonationCard.propTypes = {
+  data: PropTypes.shape({
+    img: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    category: PropTypes.string.isRequired,
+    category_bg: PropTypes.string.isRequired,
+    card_bg: PropTypes.string.isRequired,
+    text_button_bg: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default DonationCard;

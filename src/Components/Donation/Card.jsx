@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const Card = ({ data }) => {
   const {
     img,
@@ -43,4 +45,16 @@ const Card = ({ data }) => {
   );
 };
 
+Card.propTypes = {
+  data: PropTypes.shape({
+    img: PropTypes.string.isRequired,
+    id: PropTypes.number.isRequired,
+    title: PropTypes.string.isRequired,
+    category: PropTypes.string.isRequired,
+    category_bg: PropTypes.string.isRequired,
+    card_bg: PropTypes.string.isRequired,
+    text_button_bg: PropTypes.string.isRequired,
+    price: PropTypes.number.isRequired,
+  }).isRequired,
+};
 export default Card;
