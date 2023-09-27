@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Details from "./../Details/Details";
 
 const DonationCard = ({ data }) => {
   const { img, id, title, category, category_bg, card_bg, text_button_bg } =

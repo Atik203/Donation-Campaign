@@ -1,9 +1,9 @@
 import Banner from "./Banner/Banner";
 
-const Header = () => {
+const Header = ({ search, setSearch }) => {
   return (
     <div className="mt-2">
-      <Banner></Banner>
+      <Banner search={search} setSearch={setSearch}></Banner>
     </div>
   );
 };

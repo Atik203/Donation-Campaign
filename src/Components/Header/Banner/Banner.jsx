@@ -1,4 +1,4 @@
-const Banner = () => {
+const Banner = ({ search, setSearch }) => {
   const background = {
     backgroundImage: `url("https://i.ibb.co/tPz3tK9/Rectangle-4281.png?fbclid=IwAR3xBaGZ25QE7mfVsX2iYWhhpFQCea1heVhQpRuuNJ23BA4FdafFthgLKZg")`,
     width: "100%",
@@ -18,15 +18,27 @@ const Banner = () => {
             I Grow By Helping People In Need
           </h1>
           <div className="flex justify-center items-center mt-4 md:mt-6 lg:mt-10 mb-10">
-            <form>
+            <form
+              onSubmit={(e) => {
+                e.preventDefault();
+                setSearch(e.target.name.value);
+              }}
+            >
               <input
                 type="search"
                 placeholder="Search here..."
-                id=""
+                id="searchInput"
+                name="name"
                 className="bg-base-100 border-2 border-[#DEDEDE] px-4 w-48 md:w-80 h-12 md:h-14 rounded-lg"
               />
             </form>
-            <button className="btn btn-primary bg-[#FF444A] rounded-lg h-10 md:h-14 px-6 text-white border-none">
+            <button
+              type="submit"
+              onClick={() =>
+                setSearch(document.getElementById("searchInput").value)
+              }
+              className="btn btn-primary bg-[#FF444A] rounded-lg h-10 md:h-14 px-6 text-white border-none"
+            >
               Search
             </button>
           </div>

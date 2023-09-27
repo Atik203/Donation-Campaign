@@ -5,7 +5,11 @@ const Navbar = () => {
     <div className="mt-6 md:mt-10 w-11/12 mx-auto">
       <nav className="flex flex-col md:flex-row justify-between items-center">
         <div>
-          <img className="w-48" src="/src/assets/Logo.png" alt="" />
+          <img
+            className="w-48"
+            src={`https://i.ibb.co/kSwhbDf/Logo.png`}
+            alt=""
+          />
         </div>
         <div>
           <ul className="flex flex-row gap-4 mt-4 md:mt-0 text-lg">
